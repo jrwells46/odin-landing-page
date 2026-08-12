@@ -8,14 +8,19 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-body>div {
+.hero-header,
+.info,
+.testimonial,
+.call-to-action,
+.footer {
   padding: 0px 210px;
-}
-
-.hero-header {
-  background-color: #1F2937;
   display: flex;
   flex-direction: column;
+}
+
+.hero-header,
+.footer {
+  background-color: #1F2937;
 }
 
 .header {
@@ -95,8 +100,6 @@ button {
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 48px;
   padding: 54px 0px;
@@ -132,36 +135,29 @@ h2 {
 }
 
 .testimonial {
-  display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #E5E7EB;
   padding: 120px 0px;
 }
 
-.quote-attribution {
-  flex: 0 0 750px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 .quote {
+  width: 750px;
   font-size: 36px;
   color: #1F2937;
   font-weight: 300;
   font-style: italic;
-  align-self: center;
 }
 
 .attribution {
+  width: 750px;
   font-size: 24px;
   font-weight: 700;
-  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .call-to-action {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -187,10 +183,8 @@ h3 {
 }
 
 .footer {
-  background-color: #1F2937;
   color: #b2b3b6;
   font-size: 18px;
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px;
