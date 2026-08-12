@@ -1,1 +1,1 @@
-# odin-landing-page
+This project is a demo of a basic webpage layout using HTML and CSS.
